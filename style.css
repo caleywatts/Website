@@ -1,0 +1,29 @@
+body{
+  background-color: #fdfafa;
+  color: Black;
+  font-family: 'Roboto', sans-serif
+}
+
+h1 {
+  color: #252121;
+  text-align: center;
+  font-size:90px;
+  font-fammily: 'Ariel';
+
+}
+
+header{
+  background-color: Cornsilk;
+  color: Black;
+
+}
+
+section {
+  background-color: Purple;
+  color: White;
+}
+
+footer {
+  background-color: Black;
+  color: White;
+}
