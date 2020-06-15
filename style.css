@@ -1,29 +1,104 @@
+/* First Comment */
+
+
+* {
+
+  font-size: 100%;
+}
+
 body{
   background-color: #fdfafa;
   color: Black;
   font-family: 'Roboto', sans-serif
+  font-size: 14px;
+}
+
+/* Specific rules should go first. General rules after */
+
+header h1 {
+  text-align:center;
+}
+a:hover {
+  color: blue;
+  text-declaration: underline;
 }
 
 h1 {
   color: #252121;
-  text-align: center;
+  /* text-align: center; */
+  text-align: left;
   font-size:90px;
-  font-fammily: 'Ariel';
+  font-family: 'M PLUS 1p'; cursive;
 
 }
 
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+
+
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  font-style: italic;
+
+}
+
+p{
+
+  line-height: 2;
+  /* text-align: justify; */
+}
+
+/* p:hover {
+  color:blue;
+} */
+
+a:link,
+a:focus,
+a:active {
+  color:red;
+  text-declaration:none;
+}
+
+a:hover {
+  text-declaration: none;
+}
+
+a:visited {
+  color:grey;
+}
+
+
+a {
+  color:red;
+  text-declaration: none;
+}
+
+footer p{
+  font-size:10px;
+  text-align:center;
+}
+
+
 header{
-  background-color: Cornsilk;
+  background-color: Ivory;
   color: Black;
 
 }
 
 section {
-  background-color: Purple;
+  background-color: #615951 ;
   color: White;
 }
 
 footer {
-  background-color: Black;
+  background-color: #615951;
   color: White;
+  /* font-size:16px;
+  font-align:right; */
 }
