@@ -1,0 +1,206 @@
+* {
+
+  font-size: 100%;
+  /* border: 1px solid red; */
+  /* margin: 0;
+  line-height: 1; */
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #faf3f8;
+  color: Black;
+  /* font-family: 'Helvetica', sans-serif */
+  font-size: 20px;
+  /* margin: 200px 50px 100px 150px; */
+  margin: 50px;
+  background-image: url(images/wc.jpg);
+  background-size:cover;
+  /* background-repeat: no-repeat; */
+
+}
+
+/* Specific rules should go first. General rules after */
+
+header h1 {
+  text-align:center;
+  color: white;
+  font-size: 30px;
+}
+a:hover {
+  color: blue;
+  text-declaration: underline;
+}
+
+.title{
+  font-size: 60px;
+  text-declaration: underline;
+  color: white;
+
+}
+
+h1 {
+  color: Black;
+  text-align: center;
+  /* text-align: left; */
+  font-size:20px;
+  font-family: 'Lexend Tera'; cursive;
+  font-weight: lighter;
+  /* border-bottom: 1px solid black; */
+
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+
+
+}
+
+h1, h2, h3 {
+  font-weight: light;
+  margin-bottom: 20px;
+
+
+}
+
+p{
+
+  line-height: 2;
+  /* text-align: justify; */
+  margin: 15px 0;
+}
+
+/* p:hover {
+  color:blue;
+} */
+
+a:link,
+a:focus,
+a:active {
+  color:red;
+  text-declaration:none;
+}
+
+a:hover {
+  text-declaration: none;
+}
+
+a:visited {
+  color:grey;
+}
+
+
+a {
+  color:red;
+  text-declaration: none;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+footer p{
+  font-size:10px;
+  text-align:center;
+}
+
+
+header{
+  /* background-color: Gainsboro; */
+  color: White;
+  border-bottom: 5px solid white;
+
+}
+
+section {
+  /* background-color: #615951; */
+  /* background-color: #0c1123; */
+  background-color: White;
+  color: Black;
+  border: 1px solid black;
+  margin: 30px;
+  padding: 30px;
+}
+
+footer {
+  background-color: #615951;
+  color: White;
+  /* font-size:16px;
+  font-align:right; */
+}
+
+header,
+section,
+footer {
+  padding: 30px;
+  /* width: */
+  /* height: */
+}
+
+img {
+  width: 400px;
+  height:300px;
+  /* width: 100%; */
+
+}
+
+.block{
+  border-bottom: 5px solid #0a1b24;
+
+}
+
+.container{
+  max-width:1500px;
+  margin: 0 auto;
+}
+
+.banner{
+  height: 600px;
+  background-image: url(images/Bella Coola life.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Lexend Tera'; cursive;
+}
+
+
+
+.center{
+  text-align:center;
+}
+
+/* .gallery{ */
+  display: flex;
+  /* flex-wrap:wrap; */
+}
+
+/* .gallery-item { */
+
+  width: 100%
+  padding: 4px;
+
+}
+
+/* .gallery-item img { */
+
+  width:100%
+  height:auto;
+}
+
+
+/* .shadow1 { */
+  /* margin: 40px; */
+  /* background-color: rgb(68,68,68); */
+  /* -miz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6); */
+
+}
+
+/* .logo{ */
+  width:50%
+  height: auto;
+
+}
